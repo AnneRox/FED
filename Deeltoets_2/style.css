@@ -1,0 +1,159 @@
+body {
+	background: #fff;
+	width: 800px;
+	margin: 0 auto;
+}
+
+main{
+	background: #DCDCDC;
+	padding: 20px;
+	margin:20px;
+}
+
+
+nav{
+	font-family: 'Esteban', serif;
+	padding-top: 40px;
+}
+ 
+nav a {
+	text-decoration: none;
+	color:black;
+	background-color: #E0F2F5;
+	margin: 10px;
+	padding: 10px;
+}
+
+nav ul li{
+		display: inline;
+
+}
+
+h1 {
+	font-weight: bolder;
+	font-size: 40px;
+	color: #66484D;
+}
+
+h2 {
+	font-weight: lighter;
+	font-size: 30px;
+	color: #66484D;
+}
+
+h3 {
+	font-weight: lighter;
+	font-size: 25px;
+	color: #66484D;
+}
+
+h4 {
+	font-weight: lighter;
+	font-size: 20px;
+	color: #66484D;
+}
+
+p {	
+	font-family: 'Esteban', serif;
+	font-size: 17px;
+	color: #000;
+}
+
+article p:first-letter {
+	color:#58716F;
+	font-size:30px;
+}
+
+[title=lijst]{
+	font-size: 17px;
+	background-color: white;
+}
+
+[title=wit]{
+	background-color: white;
+}
+
+[title=linkje]{
+	text-decoration: none;
+	font-style: italic;
+	color: #A87780;
+}
+
+legend {
+	font-size: 25px;
+	color: #DCD5D2;
+	font-weight: lighter;
+	background-color: #66484D;
+	padding: 15px;
+	text-shadow: 1px 1px 3px rgba(204, 222, 255, 1);
+	border-radius: 5px;
+}
+
+
+form {
+	margin: 10px;
+	font-family: 'Esteban', serif;
+	font-size: 17px;
+}
+
+fieldset {
+	border: 2;
+	border-radius: 5px;
+	padding: 5px;
+	width: 400px;
+	background-color: #fff;
+	margin: 20px;
+	padding: 20px;
+}
+
+
+label {
+	font-size: 17px;
+	color:#66484D;
+}
+
+legend + ol {
+	padding: 5px;
+	list-style: none;
+}
+
+ol > li {
+	background: #C0C0C0;
+	padding: 5px;
+	margin: 0;
+}
+
+[for="name"]:after,
+[for="number"]:after, 
+[for="title"]:after,
+[for="email"]:after {
+	content: "*";
+	color: #58716F;
+}
+
+input {
+	display: block;
+	width: 300px;
+	font-size: 15px;
+	border: none;
+	transition: 2s;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 8px;
+}
+
+input:hover {
+	padding: 5px;
+}
+
+input:focus {
+	outline-size: 1px;
+	outline-style: dotted;
+	outline-color: #89B9A6;
+}
+
+footer p {
+text-decoration: none;
+font-size:13px;
+text-align: center;
+}

@@ -6,7 +6,9 @@
 	    <meta name="description" content="Geef hier een beschrijving van de pagina" />
 	    <meta name="author" content="Alexander Hardebol" />
 	    <meta name="keywords" content="HTML-template" />
-	    <!-- Hier link naar de CSS -->
+	    <link rel="stylesheet" type="text/css" href="style.css" />
+<link href='http://fonts.googleapis.com/css?family=Esteban' rel='stylesheet' type='text/css'>
+
 
 	</head>
 
@@ -56,10 +58,10 @@
 											<li><label>Plaats</label>
 											<input type="text" id="plaats" placeholder="Plaats"></li>
 
-											<li><label>Telefoon nummer</label>
+											<li><label for="number">Telefoon nummer</label>
 											<input type="tel" id="telefoonnummer" placeholder="06-1234567"></li>
 
-											<li><label>Email</label>
+											<li><label for="email">Email</label>
 											<input type="email" id="email" placeholder="voorbeeld@mail.nl"></li>
 
 										</ol>
@@ -70,10 +72,10 @@
 
 										<ol>
 											<li><label>Voor een project</label>
-											<input type="checkbox" id="project"></li>
+											<input type="checkbox"></li>
 
 											<li><label>Als stagebedrijf</label>
-											<input type="checkbox" id="stagebedrijf"></li>
+											<input type="checkbox" ></li>
 
 										</ol>
 							</fieldset>
@@ -82,23 +84,23 @@
 									<legend>Project</legend>
 
 										<ol>
-											<li><label>Titel</label>
-											<input type="text" id="titel" placeholder="Titel"></li>
+											<li><label for="title">Titel</label>
+											<input type="text" placeholder="Titel"></li>
 
 											<li><label>Opdrachtomschrijving</label>
-											<input type="text" id="opdrachtomschrijving" placeholder="max 100 woorden" maxlength=100></li>
+											<input type="text" placeholder="max 100 woorden" maxlength=100></li>
 
 											<li><label>Doelgroepomschrijving</label>
-											<input type="text" id="doelgroepomschrijving" placeholder="max 100 woorden" maxlength=100></li>
+											<input type="text" placeholder="max 100 woorden" maxlength=100></li>
 
 											<li><label>Doelstelling/ intentie van het project</label>
-											<input type="text" id="doelstelling" placeholder="max 100 woorden" maxlength=100></li>
+											<input type="text" placeholder="max 100 woorden" maxlength=100></li>
 
 											<li><label>Looptijd</label>
-											<input type= "month" id="Looptijd"></li>
+											<input type= "month"></li>
 
 											<li><label>Deadline</label>
-											<input type= "date" id="deadline"></li>
+											<input type= "date"></li>
 										</ol>
 								</fieldset>
 		
@@ -107,19 +109,19 @@
 
 										<ol>
 											<li><label>Eerstejaars studenten</label>
-											<input type="checkbox" id="first"></li>
+											<input type="checkbox"></li>
 
 											<li><label>Tweedejaars studenten</label>
-											<input type="checkbox" id="tweede"></li>
+											<input type="checkbox"></li>
 
 											<li><label>Derdejaars studenten</label>
-											<input type="checkbox" id="derde"></li>
+											<input type="checkbox"></li>
 
 											<li><label>Afstudeer studenten</label>
-											<input type="checkbox" id="afstudeer"></li>
+											<input type="checkbox"></li>
 
 											<li><label>Onbekend</label>
-											<input type="checkbox" id="onbekend"></li>
+											<input type="checkbox"></li>
 											
 										</ol>
 								</fieldset>
@@ -143,7 +145,7 @@
 
 										<ol>
 											<li><label>Tweedejaars studenten</label>
-											<input type="checkbox" id="second"></li>
+											<input type="checkbox"></li>
 
 											<li><label>Afstudeer studenten</label>
 											<input type="checkbox"></li>
@@ -176,17 +178,17 @@
 
 										<ol>
 											<li><label>Beschrijving stagewerkzaamheden</label>
-											<input type="text" id="eerste" placeholder="max 100 woorden" maxlength=100></li>
+											<input type="text" placeholder="max 100 woorden" maxlength=100></li>
 										</ol>
 							
 							</fieldset>
 						
 							<fieldset>
-									<legend>BBeschrijving stagebedrijf</legend>
+									<legend>Beschrijving stagebedrijf</legend>
 
 										<ol>
 
-											<li><label>Bedrijfsnaam</label>
+											<li><label for="number">Bedrijfsnaam</label>
 											<input type="text" placeholder="Bedrijfsnaam"></li>
 
 											<li><label>Adres</label>
