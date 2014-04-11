@@ -10,11 +10,7 @@
 		<meta name="keywords" content="HTML5,CSS,Frontend devolleper,JavaScript">
 	    <meta name="author" content="Roxanne van den Aakster" />
 	    <link rel="stylesheet" type="text/css" href="style.css" />
-		<link href='http://fonts.googleapis.com/css?family=Esteban' rel='stylesheet' type='text/css'>
-
-		<script src="modernizr.js"></script>
-
-		<!--[if lte IE 8]>Special instructions<![end]--> 
+<link href='http://fonts.googleapis.com/css?family=Esteban' rel='stylesheet' type='text/css'>
 
 	</head>
 

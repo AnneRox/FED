@@ -1,0 +1,59 @@
+html{
+	width: 960px;
+}
+
+body{
+	background-color: #283040;
+	font-family: helvetica;
+	width: 900px;
+}
+
+header{
+	background-color: #C2BEB5;
+	font-size: 15px;
+	text-align: center;
+
+}
+
+h1{
+	margin: 10px;
+}
+
+main{
+	background-color: #C2BEB5;
+	width: 566px;
+	height: 300px;
+	float: left;
+}
+
+article {
+	background-color: #D4D4D4;
+	width: 500px;
+	height: 200px;
+	margin:25px;
+}
+
+article section {
+	width: 450px;
+	height: 60px;
+}
+
+section {
+	background-color: #fff;
+	width: 250px;
+	margin: 20px;
+}
+
+blockquote {
+	background-color: #E4E2E5;
+	width: 200px;
+	height: 50px;
+	float: right;
+}
+
+aside{
+	background-color: #F0F0F0;
+	width: 311px;
+	height: 300px;
+	float: right;
+}

@@ -1,0 +1,327 @@
+
+/* Typografie */
+@import url(http://fonts.googleapis.com/css?family=Balthazar);
+
+
+/* Modernizr */
+.touch body {
+	background: #f00;
+}
+
+.no-boxshadow body {
+	border: #fff solid 1em;
+}
+
+.transition legend {
+	background-color: white;
+}
+
+/* Mediaqueries */
+
+@media screen {
+
+	html body header main {
+		background-color: silver;
+	}
+
+}
+
+@media print{
+
+	html{
+		background-color: white;
+	}	
+
+	footer{
+		visibility: hidden;
+	}
+
+	header {
+		visibility: hidden;
+	}
+
+	nav {
+		visibility: hidden;
+	}
+
+}
+
+
+
+/* HTML */
+body{
+	width: 100%;
+	background-color: #DCDCDC;
+	margin: 0%;
+	padding: 0%;
+}
+
+
+/* HEADER */
+
+nav li a[state= active]{
+	font-style: italic;
+	color: white;
+}
+
+header {
+	background-color: #fff;
+	width: 100%;
+	position: fixed;
+	margin-top: -15%;
+
+}
+
+header h1{
+	padding-bottom: 0.5em;
+	text-align: center;
+}
+
+/* nav */
+header nav {
+	background-color: #FF4500;
+	padding:0;
+	margin:0;
+}
+
+header nav ul li{
+	margin: 2em;
+
+}
+
+nav ul li{
+	display: inline;
+}
+
+nav a {
+	text-decoration: none;
+	color:black;
+	font-family: 'Balthazar', serif;
+	font-size: 1.5em;
+	padding:1em;
+}
+
+nav a:hover {
+	color:white;
+}
+
+
+/* MAIN */
+
+main {
+	width: 100%;
+	margin-top:15%;
+}
+
+main section{
+	margin-left: 35%;
+}
+
+main section:nth-child(2){
+	margin-top: -26%;
+
+}
+
+main nav{
+	width: 25%;
+
+}
+
+main nav ul li{
+	display: block;
+	border-bottom: 0.1em solid white;
+	padding-bottom: 0.8em;
+	padding-top: 5%;
+	background-color: #FF6347;
+}
+
+main nav ul li{
+	-webkit-transition:width 2s; /* For Safari 3.1 to 6.0 */
+	transition:width 1s;
+	width: 100%;
+}
+
+/* Transition */
+
+nav:nth-child(1) li:hover{
+	padding-bottom: 0.8em;
+	padding-top: 0.8em;
+	width:105%;
+}
+
+main nav li[state = active]{
+	width: 105%;
+	font-style: italic;
+}
+
+main nav li[state = active] a{
+	color:white;
+}
+
+
+main nav li[state = active]:hover{
+	transition:width 1s;
+	width: 100%
+}
+
+/* Transition */
+
+
+main nav ul li:first-child{
+	border-top: 0.1em solid white;
+}
+
+
+main nav a{
+	font-size: 1.2em;
+}
+
+section h1{
+	background-color: white;
+	width: 76%;
+	border-top: solid 0.1em;
+	padding:1em;
+	margin-bottom: 1em;
+	box-shadow: 0em 0.3em 0.3em #888;
+}
+
+main article {
+	border-bottom: solid 0.1em;
+	padding:1em;
+	background-color: white;
+	width: 80%;
+	margin-bottom: 1em;
+	box-shadow: 0em 0.3em 0.3em #888;
+}
+
+p {
+	font-family: 'Balthazar', serif;
+	font-size: 1.2em;
+}
+
+p a:hover {
+	color:#FF4500;
+}
+
+p a {
+	text-decoration: none;
+	color:#FF7F50;
+	font-style: italic;
+}
+
+* h1 {
+	font-family: 'Balthazar', serif;
+	font-size: 2em;
+	color: #FF4500;
+}
+
+h1 a{
+	text-decoration: none;
+	font-family: 'Balthazar', serif;
+	color: #FF4500;
+	text-decoration: underline;
+}
+
+h1 a:hover {
+	text-decoration: none;
+	color:#696969;
+}
+
+h2 {
+	font-family: 'Balthazar', serif;
+	font-size: 1.8em;
+	color: #FF7F50;
+}
+
+/*FORMULIER */
+
+
+form {
+	font-family: 'Balthazar', serif;
+	font-size: 100%;
+	width: 73%;
+	padding: 5%;
+	margin-bottom: 5%;
+	border-bottom: solid 0.1em;
+	box-shadow: 0em 0.3em 0.3em #888;
+	background-color: white;
+
+}
+
+
+legend {
+	color: white;
+	font-size: 150%;
+	background-color: #FF4500;
+}
+
+
+fieldset {
+	margin-bottom: 5%;
+}
+
+
+legend + ol {
+	list-style: none;
+}
+
+
+[for="name"]:before,
+[for="email"]:before{
+	content: "*";
+	color: red;
+}
+
+input {
+	display: block;
+	border: solid 0.2em;
+	margin: 2%;
+	padding: 2%;
+	-webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition:width 2s, height 2s, background-color 2s, transform 2s;
+
+}
+
+input:hover {
+ 	-webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+    background-color:#FFA07A;
+}
+
+input:focus {
+	outline-style: solid ;
+	outline-color: #FF4500;
+}
+
+
+/* FOOTER */
+footer  {
+	background: white;
+	width: 100%;
+	font-size: 80%;
+	color:silver;
+	padding-bottom: 40%;
+}
+
+footer p{
+	margin:2%;
+	float:right;
+}
+
+footer section:nth-child(2){
+	float: right;
+	margin-right: 66%;
+	width: 30%;
+	color:silver;
+}
+
+footer section:nth-child(3){
+	float: left;
+	margin-left:50%;
+	width: 40%;
+	margin-top:-27%;
+	color:silver;
+}
+
+
+

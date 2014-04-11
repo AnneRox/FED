@@ -1,3 +1,17 @@
+
+.touch body {
+	background: #f00;
+}
+
+.no-boxshadow body {
+	border: #fff, solid, 1px;
+}
+
+.textshadow legend {
+	color: white;
+	text-shadow: 0.1em 0.1em 0.05em, #808080;
+}
+
 body {
 	background: #fff;
 	width: 800px;
@@ -117,7 +131,7 @@ legend + ol {
 	list-style: none;
 }
 
-ol > li {
+ol li {
 	background: #C0C0C0;
 	padding: 5px;
 	margin: 0;
@@ -131,19 +145,21 @@ ol > li {
 	color: #58716F;
 }
 
-input {
+[placeholder] {
 	display: block;
 	width: 300px;
 	font-size: 15px;
 	border: none;
-	transition: 2s;
+	transition:all 2s ease-in;
 	margin: 5px;
 	padding: 5px;
 	border-radius: 8px;
+	background-color: blue;
 }
 
 input:hover {
-	padding: 5px;
+	padding: 50px;
+	background-color:red;
 }
 
 input:focus {
